@@ -1,8 +1,9 @@
 import React from "react";
-import cardOwner from "../images/card-user.avif";
+// import cardOwner from "../images/card-user.avif";
+import image from "../images/me.jpeg";
 
 export default function TopBar() {
     return (
-        <img src={cardOwner} alt="user image" className="user" />
+        <img src={image} alt="user image" className="user" />
     )
 }

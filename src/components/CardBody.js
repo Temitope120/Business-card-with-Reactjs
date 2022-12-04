@@ -3,15 +3,19 @@ export default function CardBody() {
     return (
         <div className="card-body">
             <div className="profile">
-                <h3 className="name"> Laura Smith</h3>
-                <span>
+                <h3 className="name"> Funminiyi Adedoyin</h3>
+                <p className="role">
                     Frontend Developer
-                </span>
+                </p>
+
+                <p>
+                <a href="https://github.com/Temitope120" target="_blank">github.com/Temitope120 </a>
+                </p>
 
             </div>
             <div className="flex">
-                <button> Email</button>
-                <button> LinkedIn</button>
+                <button type="button"> <a href= "mailto:doyinfummi2012@gmail.com" className="email" target="_blank"> Email</a></button>
+                <button type="button"> LinkedIn</button>
             </div>
 
             <h4 className="white-text">About</h4>
