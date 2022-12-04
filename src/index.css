@@ -1,4 +1,9 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
+  background-color: #E5E5e5;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +15,82 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.card{
+  overflow: hidden;
+  background-color: white;
+  padding: 3px;
+  box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.57);
+-webkit-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.57);
+-moz-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.57);
+  border-radius: 20px;
+  margin: 20px auto;
+  width: 30%;
+}
+.second-step{
+  background-color: rgb(43, 43, 43);
+  border-radius: 20px;
+  padding: 18px 20px;
+}
+.third-step{
+  padding: 0px 20px;
+}
+.main-div{
+  background-color: grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.small-card{
+  margin: 20px 45px;
+  border-radius: 10px;
+}
+.card-body{
+  background-color: rgb(12, 12, 52);
+  padding: 15px 22px;
+  margin-top: -4px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+button{
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+}
+.white-text{
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+.body{
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+}
+.name{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  /* line-height: 12px; */
+}
+.profile{
+  text-align: center;
+}
+span{
+  display: inline-block;
+}
+
+.user{
+  width:100%;
+  object-fit: cover;
+  height:auto;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
 }
